@@ -10,13 +10,13 @@ function area () {
   diameter = parseInt(diameter)
   radius = diameter / 2
   results = Math.PI * (radius * radius)
-    document.getElementById('results').innerHTML = Math.round(results * 10) / 10
+  document.getElementById('results').innerHTML = Math.round(results * 10) / 10
 }
 // A another function created for buttonTwo
 function circumfrence () {
   diameter = document.getElementById('input').value
   diameter = parseInt(diameter)
   radius = diameter / 2
-results = 2 * Math.PI * radius
-document.getElementById('results').innerHTML = Math.round(results * 10) / 10
+  results = 2 * Math.PI * radius
+  document.getElementById('results').innerHTML = Math.round(results * 10) / 10
 }
