@@ -2,8 +2,8 @@
 let diameter = 0
 let radius = 0
 let results = 0
-document.getElementById('buttonOne').addEventListener('click', area)
-document.getElementById('buttonTwo').addEventListener('click', circumfrence)
+document.getElementById('button-one').addEventListener('click', area)
+document.getElementById('button-two').addEventListener('click', circumfrence)
 // This function is created for to calculate area and circumfrence
 function area () {
   diameter = document.getElementById('input').value
